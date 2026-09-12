@@ -1,0 +1,2 @@
+# argocdrepo
+Argo practice
