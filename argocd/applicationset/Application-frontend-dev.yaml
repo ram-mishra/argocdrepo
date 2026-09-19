@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/ranagit-ux/argocdnew.git
+        repoURL: https://github.com/ram-mishra/argocdrepo.git
         revision: main
         directories:
           - path: environments/*/frontend
@@ -16,7 +16,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/ranagit-ux/argocdnew.git
+        repoURL: https://github.com/ram-mishra/argocdrepo.git
         targetRevision: main
         path: '{{path}}'
       destination:
